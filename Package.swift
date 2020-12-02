@@ -13,6 +13,7 @@ let package = Package(
     .target(name: "Runes"),
     .testTarget(
       name: "RunesTests",
+      path: "Sources",
       dependencies: [
         "Runes",
         "SwiftCheck",
