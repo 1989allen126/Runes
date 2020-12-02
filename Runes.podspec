@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'Runes'
-  spec.version = '1.0.3'
+  spec.version = '1.0.4'
   spec.summary = 'Functional operators for Swift'
   spec.homepage = 'https://github.com/1989allen126/runes'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
