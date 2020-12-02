@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'Runes'
-  spec.version = '4.1.1'
+  spec.version = '1.0.0'
   spec.summary = 'Functional operators for Swift'
   spec.homepage = 'https://github.com/1989allen126/runes'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   spec.source = { :git => 'https://github.com/1989allen126/Runes.git', :tag => "v#{spec.version}" }
   spec.source_files = 'Sources/**/*.{h,swift}'
   spec.requires_arc = true
+  spec.swift_version = "5.0"
   spec.compiler_flags = '-whole-module-optimization'
   spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.9'
