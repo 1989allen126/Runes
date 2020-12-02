@@ -17,5 +17,6 @@ let package = Package(
         "SwiftCheck",
       ]
     ),
-  ]
+  ],
+  swiftLanguageVersions: [.v5]
 )
