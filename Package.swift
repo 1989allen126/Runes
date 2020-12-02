@@ -10,10 +10,9 @@ let package = Package(
     .package(url: "git@github.com:typelift/SwiftCheck.git", from: "0.12.0")
   ],
   targets: [
-    .target(name: "Runes"),
+    .target(name: "Runes" , path: "Sources"),
     .testTarget(
       name: "RunesTests",
-      path: "Sources",
       dependencies: [
         "Runes",
         "SwiftCheck",
